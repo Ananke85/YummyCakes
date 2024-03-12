@@ -1,0 +1,47 @@
+.chocoberryContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(226, 167, 167);
+}
+
+.chocoberryContainer img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  bottom: -20rem;
+}
+
+.cakeDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choco {
+  position: absolute;
+  width: 32%;
+  height: auto;
+  top: 10rem;
+  left: 63rem;
+  rotate: 10deg
+}
+.berry {
+  position: absolute;
+  width: 35%;
+  height: auto;
+  top: -3rem;
+  left: -2rem;
+  rotate: -10deg;
+}
+.berry2 {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 2rem;
+  left: 60rem;
+  rotate: -10deg;
+
+}
