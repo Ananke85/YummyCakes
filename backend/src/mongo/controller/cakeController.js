@@ -2,7 +2,7 @@ const cakeModel = require ("../model/cakeModel")
 
 const getAllCakes = async (req, res) => {
   try {
-    const allCakes = await portfolioModel.find();
+    const allCakes = await cakeModel.find();
     res.status(200).json(allCakes);
   } catch (error) {
     res.status(500).json({ message: "Can't find your cakes" });
