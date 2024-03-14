@@ -25,13 +25,6 @@ const postCake = async (req, res) => {
   const { body } = req;
 
   try {
-
-    // Update 'images' URLs directly
-    body.image = body.image(imgUrl => imgUrl);
-    body.ingredient1 = body.ingredient1(imgUrl => imgUrl);
-    body.ingredient2 = body.ingredient2(imgUrl => imgUrl);
-    body.ingredient3 = body.ingredient3(imgUrl => imgUrl);
-
     const newCake = new cakeModel(body);
     await newCake.save();
     res.status(200).json(newCake);

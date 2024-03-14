@@ -21,6 +21,18 @@ const getRecipeById = async (req, res) => {
   }
 };
 
+const getRecipeByName = async (req, res) => {
+  const { name } = req.params;
+  try {
+    const recipeName = await recipeModel
+      .findById(name)
+      .exec();
+    res.status(200).json(recipeName);
+  } catch (error) {
+    res.status(404).json({ error: "Sorry, can't find this recipe" });
+  }
+};
+
 const postRecipe = async (req, res) => {
   const { body } = req;
   try {
@@ -35,5 +47,6 @@ const postRecipe = async (req, res) => {
 module.exports = {
   getAllRecipes,
   postRecipe,
-  getRecipeById
+  getRecipeById,
+  getRecipeByName
 }
