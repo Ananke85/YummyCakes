@@ -1,17 +1,15 @@
 import { useState } from "react";
 import styles from "./home.module.css";
-import ChocoBerry from "../CAKES/ChocoBerry/ChocoBerry";
 import { useQuery } from "react-query";
 import { getCakes } from "../../utils/apiCakes";
+import Cake from "../CAKES/Cake";
 
 const Home = () => {
   const { data: cakes } = useQuery(["cakes"], getCakes);
   const cakesLinks = cakes?.map((cake) => cake.title);
 
-  console.log("los pastelitos", cakes);
   const [currentCakeIndex, setCurrentCakeIndex] = useState(0);
-  const currentCake = cakes && cakes[currentCakeIndex]
-
+  const currentCake = cakes && cakes[currentCakeIndex];
 
   const handlePrevious = () => {
     if (currentCakeIndex > 0) {
@@ -25,37 +23,30 @@ const Home = () => {
     }
   };
 
-  // const renderCake = () => {
-  //   const currentCake = cakesLinks && cakesLinks[currentCakeIndex];
-  //   if (currentCake) {
-  //     switch (currentCake) {
-
-  //       case "Chocolate and Raspberry Cake":
-  //         return <ChocoBerry />;
-  //       // Add cases for other cakes as needed
-  //       default:
-  //         return null;
-  //     }
-  //   }
-  //   return null;
-  // };
-
   return (
     <>
       <div className={styles.homeContainer}>
         <div className={styles.navBar}>
-          {cakes && cakesLinks.map((cake) => <div key={cake._id}>{cake.title}</div>)}
-          {cakes && (
-            <ChocoBerry
-              cakeDisplayed={currentCake}
-            />
+          {cakes &&
+            cakesLinks.map((cake) => (
+              <div key={cake._id} className={styles.navItem}>
+                {cake}
+              </div>
+            ))}
+        </div>
+        <div className={styles.buttonsContainer}>
+
+          {currentCakeIndex !==0 && (
+          <button onClick={handlePrevious} className={styles.buttonLeft}>previous</button>
+
+          )}
+          <div></div>
+          {currentCakeIndex !== cakes.length -1 && (
+          <button onClick={handleNext}>next</button>
+
           )}
         </div>
-        {/* <div>{renderCake()}</div> */}
-        <div className={styles.buttonsContainer}>
-          <button onClick={handlePrevious}>previous</button>
-          <button onClick={handleNext}>next</button>
-        </div>
+        {cakes && <Cake cakeDisplayed={currentCake} />}
       </div>
     </>
   );

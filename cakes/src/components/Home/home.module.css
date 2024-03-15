@@ -1,0 +1,57 @@
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  /* padding-bottom: 5rem; */
+  overflow: hidden;
+  color: white;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  bottom: 3rem;
+}
+.buttonsContainer button {
+  width: 6rem;
+}
+.buttonLeft {
+  margin-left: 15rem
+}
+
+
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20rem;
+  z-index: 1;
+}
+
+.navItem {
+  position: absolute;
+  width: 7rem; 
+  height: 3rem; 
+  background-color: rgba(226, 167, 167, 0.8); 
+  background-color: red; /* Adjust color and transparency as needed */
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  padding:  0 0.2rem;
+ 
+}
+
+.navItem:nth-child(1) { transform: rotate(-80deg) translateX(-16rem) translateY(-16rem); }
+.navItem:nth-child(2) { transform: rotate(-42deg) translateX(-13rem) translateY(-6rem); }
+.navItem:nth-child(3) { transform: rotate(-10deg) translateX(-5rem) translateY(-2rem); }
+.navItem:nth-child(4) { transform: rotate(10deg) translateX(5rem)translateY(-2rem); }
+.navItem:nth-child(5) { transform: rotate(42deg) translateX(13rem) translateY(-6rem); }
+.navItem:nth-child(6) { transform: rotate(84deg) translateX(15rem) translateY(-16rem); }

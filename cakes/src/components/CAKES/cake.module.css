@@ -1,0 +1,75 @@
+.chocoberryContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(226, 167, 167);
+  overflow: hidden;
+  position: relative;
+}
+
+.chocoberryContainer img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  bottom: -15rem;
+}
+
+.cakeDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ingr1 {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  top: 0rem;
+  left: -6rem;
+  rotate: -20deg;
+  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5))
+}
+
+.ingr3 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 12rem;
+  left: 61rem;
+  rotate: 10deg;
+  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5))
+
+}
+
+.ingr2 {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: -1rem;
+  left: 70rem;
+  rotate: -10deg;
+  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5))
+
+
+}
+
+.cakeDetails a {
+  background-color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cakeDetails a:hover {
+  background-color: pink;
+  color: white;
+}
+
+.cakeDetails p {
+  width: 40%;
+  text-align: center;
+}
