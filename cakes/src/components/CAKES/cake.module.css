@@ -1,19 +1,20 @@
-.chocoberryContainer {
-  width: 100%;
-  height: 100vh;
+.cakeContainer {
+  width: 100vw;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(226, 167, 167);
   overflow: hidden;
   position: relative;
+  transition: background-color 1s ease;
 }
 
-.chocoberryContainer img {
+.cakeContainer img {
   width: 40%;
   height: auto;
   position: absolute;
   bottom: -15rem;
+  transition: transform 1s ease;
 }
 
 .cakeDetails {
@@ -22,54 +23,108 @@
   flex-direction: column;
   align-items: center;
 }
-.ingr1 {
+
+.ingr1,
+.ingr2,
+.ingr3 {
   position: absolute;
-  width: 45%;
   height: auto;
+  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5));
+ 
+}
+.ingr1 {
+  width: 45%;
   top: 0rem;
   left: -6rem;
   rotate: -20deg;
-  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5))
 }
-
-.ingr3 {
-  position: absolute;
-  width: 30%;
-  height: auto;
-  top: 12rem;
-  left: 61rem;
-  rotate: 10deg;
-  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5))
-
-}
-
 .ingr2 {
-  position: absolute;
   width: 20%;
-  height: auto;
   top: -1rem;
   left: 70rem;
   rotate: -10deg;
-  filter: drop-shadow(10px 5px 7px rgba(32, 14, 48, 0.5))
-
-
+}
+.ingr3 {
+  width: 30%;
+  top: 12rem;
+  left: 61rem;
+  rotate: 10deg;
 }
 
+
+
 .cakeDetails a {
-  background-color: white;
+  background-color: var(--grey-light);
   padding: 0.3rem 1rem;
   border-radius: 2rem;
-  color: black;
+  color: var(--grey-dark);
   cursor: pointer;
   text-decoration: none;
+  transition: ease-in 0.2s;
 }
 
 .cakeDetails a:hover {
-  background-color: pink;
-  color: white;
+  background-color: var(--pink-light);
+  color: var(--grey-light);
+  transition: color ease-in 0.2s;
+  transition: background-color ease-in 0.2s;
 }
 
 .cakeDetails p {
   width: 40%;
   text-align: center;
+}
+
+/* Background colors for each type of cake */
+
+.Chocolate-and-Fig-Cake {
+  background: radial-gradient(circle, var(--gold), var(--lilac));
+}
+.Chocolate-and-Raspberry-Cake {
+  background: radial-gradient(circle, var(--gold), var(--blue));
+}
+.Classic-Peach-Pie {
+  background: radial-gradient(circle, var(--gold), var(--orange));
+}
+.Lemon-Meringue-Pie {
+  background: radial-gradient(circle, var(--gold), var(--green));
+}
+.Puff-Pastry-Strawberry-Cake {
+  background: radial-gradient(circle, var(--gold), var(--pink));
+}
+.Strawberry-Cake {
+  background: radial-gradient(circle, var(--gold), var(--fucsia));
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+ 
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .cakeContainer img {
+    width: 80%;
+    bottom: -15rem
+  }
+  .cakeDetails p {
+    width: 80%;
+  }
+
+  .ingr1 {
+    width: 68%;
+    top: 17rem;
+    left: -5rem
+  }
+  .ingr2 {
+    width: 30%;
+    top: 12rem;
+    left: 32rem;
+  }
+  .ingr3 {
+    width: 45%;
+    top: 23rem;
+    left: 22rem;
+  }
 }
