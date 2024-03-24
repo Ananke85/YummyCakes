@@ -7,23 +7,43 @@ const Recipe = () => {
   const { name } = useParams();
   const { data: recipes } = useQuery(["recipe"], getRecipes);
   const recipe = recipes?.find((reci) => reci.title === name);
+  const transformedName = name ? name.replace(/\s+/g, "-") : "";
+
+  console.log("el nombre", name);
 
   return (
     <>
-      <div className={styles.recipeContainer}>
+      <div
+        className={`${styles.recipeContainer} ${
+          transformedName ? styles[transformedName] : ""
+        }`}
+      >
         {name && recipe && (
-          <div key={recipe._id}>
+          <div key={recipe._id} className={styles.recipeContent}>
             <h1>{recipe.title}</h1>
-            <img src={recipe.image}></img>
-            <h3>{recipe.introduction}</h3>
-            <h4>Preparation time: {recipe.preparation} minutes</h4>
-            <h4>Baking time: {recipe.baking} minutes</h4>
-            <h4>Servings: {recipe.servings} people</h4>
+            <div className={styles.intro}>
+              <img src={recipe.image}></img>
+              <div>
+                <p>{recipe.introduction}</p>
+                <div className={styles.details}>
+                  <h4>Preparation time: {recipe.preparation} minutes</h4>
+                  <h4>Baking time: {recipe.baking} minutes</h4>
+                  <h4>Servings: {recipe.servings} people</h4>
+                </div>
+              </div>
+            </div>
 
             <h3>Ingredients:</h3>
-            {recipe.ingredients.map((ingred) => (
-              <li key={ingred._id}>{ingred}</li>
-            ))}
+            <div className={styles.ingredients}>
+              {recipe.ingredients.map((ingred) => (
+                <li
+                  key={ingred._id}
+                  className={styles.bullet}
+                >
+                 <span className={styles.text}>{ingred}</span> 
+                </li>
+              ))}
+            </div>
 
             <h3>Instructions:</h3>
             {recipe.instructions.map((instruc, index) => (
@@ -32,13 +52,19 @@ const Recipe = () => {
                   {index + 1}. {instruc.title}
                 </h4>
                 {instruc.steps.map((step) => (
-                  <li key={step._id}>{step}</li>
+                  <li
+                    key={step._id}
+                    className={styles.bullet}
+                  >
+                    <span className={styles.text}>{step}</span>
+                  </li>
                 ))}
               </div>
             ))}
-
-            <p>And that is it!!</p>
-            <p>{recipe.conclusion}</p>
+            <div className={styles.conclusion}>
+              <p>And that is it!!</p>
+              <p>{recipe.conclusion}</p>
+            </div>
           </div>
         )}
       </div>

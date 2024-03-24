@@ -20,6 +20,7 @@
   --pink: #700f60;
   --gold: #e4b55d;
   --grey-light: #f7f7f7;
+  --grey-medium: #757272;
   --grey-dark: #3c3f3e;
   --pink-light: rgb(245, 192, 219);
 
@@ -30,15 +31,25 @@ body {
   padding: 0;
   height: 100%;
   max-width: 100vw;
+  
   /* overflow: hidden; */
 }
 
 h1 {
   font-size: 3rem;
-  line-height: 1.1;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
 }
 p {
   font-size: 0.9rem;
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 /* button {

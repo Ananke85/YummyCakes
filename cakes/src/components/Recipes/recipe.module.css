@@ -1,3 +1,132 @@
 .recipeContainer {
-height: 100%;
+  background-color: var(-grey-medium);
+  background-image: url(C:\Users\anank\Documents\Ananke85\YUMMYCAKES\cakes\src\assets\utensilios.png);
+  background-repeat: repeat;
+  background-size: 5em auto;
+  padding: 2rem 5rem;
+}
+
+.recipeContent img {
+  width: 90%;
+}
+.recipeContent h1 {
+  text-align: center;
+}
+.recipeContent h3 {
+  text-transform: uppercase;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.details h4,
+.conclusion,
+.recipeContainer h3 {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.ingredients {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.conclusion {
+  margin-top: 3rem;
+  text-align: center;
+}
+.conclusion p {
+  font-size: 2rem;
+}
+
+
+
+.text {
+  color: var(--grey-light)
+}
+
+.Chocolate-and-Fig-Cake .bullet {
+  color: var(--lilac);
+}
+.Chocolate-and-Raspberry-Cake .bullet {
+  color: var(--blue);
+}
+.Classic-Peach-Pie .bullet {
+  color: var(--orange);
+}
+.Lemon-Meringue-Pie .bullet {
+  color: var(--green);
+}
+.Puff-Pastry-Strawberry-Cake .bullet {
+  color: var(--pink);
+}
+.Strawberry-Cake .bullet {
+  color: var(--fucsia);
+}
+
+
+/* .recipeContent .ingredients li::before,
+.recipeContent .instructions li::before {
+  content: "•";
+}
+
+.recipeContent .Chocolate-and-Fig-Cake .ingredients li::before,
+.recipeContent .Chocolate-and-Fig-Cake .instructions li::before {
+  color: var(--lilac);
+}
+.recipeContent .Chocolate-and-Raspberry-Cake .ingredients li::before,
+.recipeContent .Chocolate-and-Raspberry-Cake .instructions li::before {
+  color: var(--blue);
+}
+.recipeContent .Classic-Peach-Pie .ingredients li::before,
+.recipeContent .Classic-Peach-Pie .instructions li::before {
+  color: var(--orange);
+}
+.recipeContent .Lemon-Meringue-Pie .ingredients li::before,
+.recipeContent .Lemon-Meringue-Pie .instructions li::before {
+  color: var(--green);
+}
+.recipeContent .Puff-Pastry-Strawberry-Cake .ingredients li::before,
+.recipeContent .Puff-Pastry-Strawberry-Cake .instructions li::before {
+  color: var(--pink);
+}
+.recipeContent .Strawberry-Cake .ingredients li::before,
+.recipeContent .Strawberry-Cake .instructions li::before {
+  color: var(--fucsia);
+} */
+
+
+/* Background colors for each type of cake */
+
+.Chocolate-and-Fig-Cake {
+  background: radial-gradient(circle, var(--gold), var(--lilac));
+}
+.Chocolate-and-Raspberry-Cake {
+  background: radial-gradient(circle, var(--gold), var(--blue));
+}
+.Classic-Peach-Pie {
+  background: radial-gradient(circle, var(--gold), var(--orange));
+}
+.Lemon-Meringue-Pie {
+  background: radial-gradient(circle, var(--gold), var(--green));
+}
+.Puff-Pastry-Strawberry-Cake {
+  background: radial-gradient(circle, var(--gold), var(--pink));
+}
+.Strawberry-Cake {
+  background: radial-gradient(circle, var(--gold), var(--fucsia));
 }
