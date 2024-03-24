@@ -94,12 +94,56 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .homeContainer {
-    width: 100%;
+    height: 180vh;
   }
+  .navBar {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    bottom: -17rem; 
+  }
+
+  .navItem {
+    position: relative; 
+    transform: none; 
+  }
+  .navItem:nth-child(1), .navItem:nth-child(2), .navItem:nth-child(3), .navItem:nth-child(4), .navItem:nth-child(5), .navItem:nth-child(6) {
+    transform: none; 
+    bottom: 0;
+  }
+  .buttonLeft {
+    left: -0.5rem;
+    top: 22rem;
+   }
+   .buttonRight {
+    left: 17.5rem;
+    top: 22rem;
+   }
+  
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
- 
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  
+ .buttonLeft {
+  left: 1rem;
+  top: -15rem;
+ }
+ .buttonRight {
+  left: 41rem;
+  top: -15rem;
+ }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  .buttonLeft {
+    left: 1rem;
+    top: -2rem;
+   }
+   .buttonRight {
+    left: 57rem;
+    top: -2rem;
+   }
+}
+

@@ -99,32 +99,90 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
  
+  .cakeDetails h1 {
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .cakeContainer img {
+    width: 100%;
+    bottom: -8rem;
+    z-index: 1;
+  }
+  .cakeDetails p {
+    width: 80%;
+  }
+  .ingr1 {
+    width: 95%;
+    top: 32rem;
+    left: 1rem
+  }
+  .ingr2 {
+    width: 35%;
+    top: 30rem;
+    left: 1rem;
+  }
+  .ingr3 {
+    width: 38%;
+    top: 29rem;
+    left: 14rem;
+  }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .cakeContainer {
+    height: fit-content;
+  }
   .cakeContainer img {
-    width: 80%;
+    width: 72%;
     bottom: -15rem
   }
   .cakeDetails p {
     width: 80%;
   }
-
   .ingr1 {
-    width: 68%;
+    width: 67%;
     top: 17rem;
-    left: -5rem
+    left: -3rem
   }
   .ingr2 {
     width: 30%;
-    top: 12rem;
+    top: 14rem;
     left: 32rem;
   }
   .ingr3 {
-    width: 45%;
+    width: 42%;
     top: 23rem;
-    left: 22rem;
+    left: 24rem;
   }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  .cakeContainer {
+    height: 100%;
+  }
+  .cakeContainer img {
+    width: 57%;
+    bottom: -15rem
+  }
+  .cakeDetails p {
+    width: 40%;
+  }
+  .ingr1 {
+    width: 40%;
+    top: 4rem;
+    left: -2rem
+  }
+  .ingr2 {
+    width: 20%;
+    top: 2rem;
+    left: 50rem;
+  }
+  .ingr3 {
+    width: 30%;
+    top: 12rem;
+    left: 43rem;
+  }
+}
+
