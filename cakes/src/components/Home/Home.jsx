@@ -9,27 +9,25 @@ const Home = () => {
   const cakesLinks = cakes?.map((cake) => cake.title);
 
   const [currentCakeIndex, setCurrentCakeIndex] = useState(0);
-  const [rotation, setRotation] = useState(0)
+  const [rotation, setRotation] = useState(0);
   const currentCake = cakes && cakes[currentCakeIndex];
 
   const handleNavItem = (index) => {
     setCurrentCakeIndex(index);
-    setRotation(rotation + 360)
-  }
+    setRotation(rotation + 360);
+  };
 
   const handlePrevious = () => {
     if (currentCakeIndex > 0) {
       setCurrentCakeIndex(currentCakeIndex - 1);
-      setRotation(rotation + 360)
+      setRotation(rotation + 360);
     }
   };
 
   const handleNext = () => {
     if (currentCakeIndex < cakes?.length - 1) {
       setCurrentCakeIndex(currentCakeIndex + 1);
-      setRotation(rotation + 360)
-
-
+      setRotation(rotation + 360);
     }
   };
 
@@ -39,7 +37,11 @@ const Home = () => {
         <div className={styles.navBar}>
           {cakes &&
             cakesLinks.map((cake, index) => (
-              <div key={index} className={styles.navItem} onClick={() => handleNavItem(index)}>
+              <div
+                key={index}
+                className={styles.navItem}
+                onClick={() => handleNavItem(index)}
+              >
                 {cake}
               </div>
             ))}

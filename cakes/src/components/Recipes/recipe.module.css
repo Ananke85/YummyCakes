@@ -1,9 +1,16 @@
+.navBar img {
+  width: 8rem;
+  height: auto;
+  position: absolute;
+  top: 1rem;
+}
+
 .recipeContainer {
-  background-color: var(-grey-medium);
-  background-image: url(C:\Users\anank\Documents\Ananke85\YUMMYCAKES\cakes\src\assets\utensilios.png);
-  background-repeat: repeat;
-  background-size: 5em auto;
-  padding: 2rem 5rem;
+  padding: 2rem 5rem 4rem 5rem;
+}
+
+.recipeContent {
+  width: 100%;
 }
 
 .recipeContent img {
@@ -21,12 +28,14 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 1rem;
+  margin: 1rem 0;
 }
 
 .details {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
+  margin-top: 2rem;
 }
 
 .details h4,
@@ -48,15 +57,61 @@
 .conclusion {
   margin-top: 3rem;
   text-align: center;
+  padding: 1rem 2rem 2rem 2rem;
 }
-.conclusion p {
+.title {
   font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
-
-
 
 .text {
-  color: var(--grey-light)
+  color: var(--grey-light);
+}
+.otherRecipes {
+  padding: 1rem 4rem 4rem 4rem;
+  box-shadow: 0px -5px 10px rgba(224, 224, 224, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.recipes a {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  transition: ease-in 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--grey-light);
+  font-size: 0.9rem;
+}
+.recipes a:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--grey-dark);
+}
+
+.otherRecipes button {
+  width: 8rem;
+  background-color: var(--pink-light);
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  color: var(--grey-dark);
+  cursor: pointer;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+  margin-top: 1rem;
 }
 
 .Chocolate-and-Fig-Cake .bullet {
@@ -78,38 +133,6 @@
   color: var(--fucsia);
 }
 
-
-/* .recipeContent .ingredients li::before,
-.recipeContent .instructions li::before {
-  content: "•";
-}
-
-.recipeContent .Chocolate-and-Fig-Cake .ingredients li::before,
-.recipeContent .Chocolate-and-Fig-Cake .instructions li::before {
-  color: var(--lilac);
-}
-.recipeContent .Chocolate-and-Raspberry-Cake .ingredients li::before,
-.recipeContent .Chocolate-and-Raspberry-Cake .instructions li::before {
-  color: var(--blue);
-}
-.recipeContent .Classic-Peach-Pie .ingredients li::before,
-.recipeContent .Classic-Peach-Pie .instructions li::before {
-  color: var(--orange);
-}
-.recipeContent .Lemon-Meringue-Pie .ingredients li::before,
-.recipeContent .Lemon-Meringue-Pie .instructions li::before {
-  color: var(--green);
-}
-.recipeContent .Puff-Pastry-Strawberry-Cake .ingredients li::before,
-.recipeContent .Puff-Pastry-Strawberry-Cake .instructions li::before {
-  color: var(--pink);
-}
-.recipeContent .Strawberry-Cake .ingredients li::before,
-.recipeContent .Strawberry-Cake .instructions li::before {
-  color: var(--fucsia);
-} */
-
-
 /* Background colors for each type of cake */
 
 .Chocolate-and-Fig-Cake {
@@ -129,4 +152,63 @@
 }
 .Strawberry-Cake {
   background: radial-gradient(circle, var(--gold), var(--fucsia));
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .navBar img {
+    left: 8rem;
+  }
+  .recipeContainer {
+    padding: 9rem 2rem 2rem 2rem;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro img {
+    justify-self: center;
+  }
+  .details {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .ingredients {
+    grid-template-columns: 1fr;
+  }
+  .otherRecipes {
+    padding: 1rem;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .otherRecipes button {
+    margin-top: 3rem;
+  }
+  .recipes {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .recipeContainer {
+    padding-top: 9rem 3rem 3rem 3rem;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .intro img {
+    width: 50%;
+    justify-self: center;
+  }
+  .details {
+    flex-wrap: wrap;
+    gap: 0 1rem;
+  }
+  .ingredients {
+    grid-template-columns: 1fr 1fr;
+  }
+  .recipes {
+    gap: 2rem;
+  }
 }

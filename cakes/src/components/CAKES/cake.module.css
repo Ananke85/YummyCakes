@@ -7,6 +7,8 @@
   overflow: hidden;
   position: relative;
   transition: background-color 1s ease;
+  padding-top: 2rem;
+
 }
 
 .cakeContainer img {
@@ -61,6 +63,7 @@
   cursor: pointer;
   text-decoration: none;
   transition: ease-in 0.2s;
+  margin-top: 1rem;
 }
 
 .cakeDetails a:hover {
@@ -100,7 +103,6 @@
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
- 
   .cakeDetails h1 {
     text-align: center;
     padding: 0 1rem;
@@ -114,9 +116,9 @@
     width: 80%;
   }
   .ingr1 {
-    width: 95%;
-    top: 32rem;
-    left: 1rem
+    width: 80%;
+    top: 33rem;
+    left: 2rem
   }
   .ingr2 {
     width: 35%;
@@ -124,7 +126,7 @@
     left: 1rem;
   }
   .ingr3 {
-    width: 38%;
+    width: 36%;
     top: 29rem;
     left: 14rem;
   }
