@@ -7,6 +7,7 @@
 
 .buttonsContainer {
   width: 100%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,16 +114,19 @@
     transform: none; 
     bottom: 0;
   }
+  .buttonsContainer{
+    top: 62rem
+  }
   .buttonLeft {
     left: -0.5rem;
-    top: 22rem;
    }
    .buttonRight {
     left: 17.5rem;
-    top: 22rem;
    }
   
 }
+
+
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   
@@ -131,7 +135,7 @@
   top: -15rem;
  }
  .buttonRight {
-  left: 41rem;
+  left: 40rem;
   top: -15rem;
  }
 }
@@ -146,4 +150,37 @@
     top: -2rem;
    }
 }
+
+@media only screen and (min-width: 1500px) {
+  .navItem:nth-child(1) {
+    transform: rotate(-80deg) translateX(-16rem) translateY(-22rem);
+  }
+  .navItem:nth-child(2) {
+    transform: rotate(-42deg) translateX(-13rem) translateY(-13rem);
+  }
+  .navItem:nth-child(3) {
+    transform: rotate(-10deg) translateX(-5rem) translateY(-9rem);
+  }
+  .navItem:nth-child(4) {
+    transform: rotate(10deg) translateX(5rem) translateY(-9rem);
+  }
+  .navItem:nth-child(5) {
+    transform: rotate(42deg) translateX(13rem) translateY(-13rem);
+  }
+  .navItem:nth-child(6) {
+    transform: rotate(84deg) translateX(15rem) translateY(-22rem);
+  }
+
+  .navItem {
+    font-size: 1em;
+    width: 9rem;
+    padding: 0.3rem
+  }
+
+  .buttonRight {
+    left: 97rem
+  }
+}
+
+
 

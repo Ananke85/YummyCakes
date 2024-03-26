@@ -1,5 +1,5 @@
 .navBar img {
-  width: 8rem;
+  width: 7rem;
   height: auto;
   position: absolute;
   top: 1rem;
@@ -191,7 +191,7 @@
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   .recipeContainer {
-    padding-top: 9rem 3rem 3rem 3rem;
+    padding: 9rem 3rem 3rem 3rem;
   }
   .intro {
     grid-template-columns: 1fr;
@@ -210,5 +210,15 @@
   }
   .recipes {
     gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .recipeContainer {
+    padding: 3rem 18rem;
+  }
+
+  .otherRecipes {
+    padding: 1rem 18rem 4rem 18rem;
   }
 }

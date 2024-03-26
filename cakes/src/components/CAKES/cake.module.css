@@ -134,7 +134,7 @@
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   .cakeContainer {
-    height: fit-content;
+    height: 100%;
   }
   .cakeContainer img {
     width: 72%;
@@ -185,6 +185,30 @@
     width: 30%;
     top: 12rem;
     left: 43rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+ 
+  .cakeContainer img {
+    width: 40%;
+    bottom: -18rem
+  }
+
+  .ingr1 {
+    width: 35%;
+    top: 4rem;
+    left: 5rem
+  }
+  .ingr2 {
+    width: 20%;
+    top: 2rem;
+    left: 85rem;
+  }
+  .ingr3 {
+    width: 22%;
+    top: 12rem;
+    left: 65rem;
   }
 }
 

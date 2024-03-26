@@ -37,6 +37,7 @@ const Recipe = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  
   useEffect(() => {
     const handleScroll = () => {
       setMobileScreen(window.innerWidth < mobDimension);
@@ -113,7 +114,7 @@ const Recipe = () => {
             restOfRecipes.map((recipe, index) => (
               <div key={index}>
                 {" "}
-                <Link to={`/recipes/${recipe.title}`}>{recipe.title}</Link>
+                <Link to={`/recipes/${recipe.title}`} onClick={scrollToTop}>{recipe.title}</Link>
               </div>
             ))}
         </div>
