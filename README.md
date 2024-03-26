@@ -28,8 +28,8 @@ At the center of the page, a prominent cake captures attention, dynamically rota
 The background and ingredients dynamically adjust based on the selected cake, with each cake featuring a distinct color scheme for easy identification.
 
 
-![Screenshot](./screenshot_01.png)
-![Screenshot](./screenshot_02.png)
+![Screenshot](./screenshots/screenshot_01.png)
+![Screenshot](./screenshots/screenshot_02.png)
 
 
 ### Recipes page
@@ -41,8 +41,8 @@ At the bottom in a footer format, the list of remaining cakes can be seen, with 
 
 In the top left corner, the logo of the page has been added for direct navigation to the homepage.
 
-![Screenshot](./screenshot_03.png)
-![Screenshot](./screenshot_04.png)
+![Screenshot](./screenshots/screenshot_03.png)
+![Screenshot](./screenshots/screenshot_04.png)
 
 ### Responsive Design
 
@@ -53,9 +53,9 @@ In the mobile version, an additional functionality has been introduced: a button
 And that's it!
 Now, all that's left is to indulge in these yummy cakes and enjoy every delicious bite!
 
-![Screenshot](./screenshot_05.png)
-![Screenshot](./screenshot_06.png)
-![Screenshot](./screenshot_07.png)
+![Screenshot](./screenshots/screenshot_05.png)
+![Screenshot](./screenshots/screenshot_06.png)
+![Screenshot](./screenshots/screenshot_07.png)
 
 # Technologies Used
 ### Main Front-End Libraries:
