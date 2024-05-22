@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const URL_API =
-  window.location.hostname === "https://yum-yum-yummycakes.netlify.app"
+  window.location.hostname === "yum-yum-yummycakes.netlify.app"
     ? "https://yummycakes-production.up.railway.app"
     : "http://localhost:3005";
 
