@@ -103,7 +103,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 0.5rem;
-    bottom: -5rem; 
+    bottom: -2rem; 
     width: 90vw;
     margin: 0 1.5rem
   }
@@ -117,7 +117,7 @@
     bottom: 0;
   }
   .buttonsContainer{
-    top: 72rem
+    top: 70rem
   }
   .buttonLeft {
     left: 2.5rem;
