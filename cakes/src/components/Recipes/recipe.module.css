@@ -156,7 +156,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .navBar img {
-    left: 8rem;
+    left: 10rem;
   }
   .recipeContainer {
     padding: 9rem 2rem 2rem 2rem;

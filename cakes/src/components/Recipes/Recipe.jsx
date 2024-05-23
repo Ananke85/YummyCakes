@@ -32,7 +32,7 @@ const Recipe = () => {
   };
 
   const [mobileScreen, setMobileScreen] = useState(false);
-  const mobDimension = 376;
+  const mobDimension = 480;
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
