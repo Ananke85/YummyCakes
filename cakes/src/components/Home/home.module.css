@@ -97,13 +97,13 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .homeContainer {
-    height: 150vh;
+    height: 170vh;
   }
   .navBar {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 0.5rem;
-    bottom: -9rem; 
+    bottom: -12rem; 
     width: 90vw;
     margin: 0 1.5rem
   }

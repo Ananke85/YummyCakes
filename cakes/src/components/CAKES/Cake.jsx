@@ -36,7 +36,7 @@ const Cake = ({ cakeDisplayed, rotation }) => {
         )}
       </div>
       {cake && (
-        <div className={styles.picIngred}>
+        <div>
           <img
             src={cake.ingredient1}
             alt={cake.ingredient1}
