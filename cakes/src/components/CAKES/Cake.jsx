@@ -1,19 +1,31 @@
 import styles from "./cake.module.css";
-import { useQuery } from "react-query";
-import { getCakeById } from "../../utils/apiCakes";
+// import { useQuery } from "react-query";
+// import { getCakeById } from "../../utils/apiCakes";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
+import dataCakes from "../../data/cakes.json";
 
 const Cake = ({ cakeDisplayed, rotation }) => {
+  // to use only with data in mongoDB
+  // const { data: cake } = useQuery(["cakes", id], getCakeById);
+
   const id = cakeDisplayed?._id;
-  const { data: cake } = useQuery(["cakes", id], getCakeById);
-  const cakeTitle = cake && cake.title.replace(/\s+/g, "-");
-  const [currentRotation, setCurrentRotation] = useState(0)
+
+  //this const and useEffect, only when data comes from the json
+  const [cake, setCake] = useState();
 
   useEffect(() => {
-    setCurrentRotation(rotation)
-  }, [rotation])
+    const selectedCake = dataCakes.find((cake) => cake._id === id);
+    setCake(selectedCake);
+  }, [id]);
+
+  const cakeTitle = cake && cake.title.replace(/\s+/g, "-");
+  const [currentRotation, setCurrentRotation] = useState(0);
+
+  useEffect(() => {
+    setCurrentRotation(rotation);
+  }, [rotation]);
 
   return (
     <>

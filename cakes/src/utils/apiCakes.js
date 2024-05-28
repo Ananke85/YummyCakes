@@ -1,36 +1,21 @@
-import { api } from "./api";
+// import { api } from "./api";
 
-
-
-export const getCakes = () => {
-  return api
-  .get("/cakes")
-  .then((res) => res.data)
-  .catch((error) => {
-    console.log(error)
-    return[]
-  })
-}
-
-
-// export const getCakeById = ({id}) => {
+// export const getCakes = () => {
 //   return api
-//     .get(`/cakes/${id}`)
+//     .get("/cakes")
 //     .then((res) => res.data)
 //     .catch((error) => {
 //       console.log(error);
 //       return [];
 //     });
-  
-// }
+// };
 
-
-export const getCakeById = ({ queryKey }) => {
-  return api
-    .get(`/cakes/${queryKey[1]}`)
-    .then((res) => res.data)
-    .catch((error) => {
-      console.log(error);
-      return [];
-    });
-};
+// export const getCakeById = ({ queryKey }) => {
+//   return api
+//     .get(`/cakes/${queryKey[1]}`)
+//     .then((res) => res.data)
+//     .catch((error) => {
+//       console.log(error);
+//       return [];
+//     });
+// };

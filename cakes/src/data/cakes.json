@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "65f3427a2fabf8c9739393c1",
+    "title": "Chocolate and Fig Cake",
+    "description": "This exquisite dessert combines velvety chocolate cake layers with the natural sweetness and subtle earthiness of fresh figs, creating a symphony of flavors that will enchant your palate. Whether you're marking a special occasion or simply craving a luxurious treat, this cake offers a delightful indulgence that is sure to impress. With its elegant presentation and irresistible taste, it's bound to become a favorite among friends and family.",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240976/cakes/tarta_chocofigue_ga0io1.png",
+    "ingredient1": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240968/cakes/ingred_figue2_x22fhd.png",
+    "ingredient2": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240972/cakes/ingred_pistacchio_l1dg9l.png",
+    "ingredient3": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240967/cakes/ingred_choco2_idgngk.png"
+  },
+  {
+    "_id": "65f342972fabf8c9739393c3",
+    "title": "Chocolate and Raspberry Cake",
+    "description": "Indulge in the ultimate dessert experience with our Chocolate and Raspberry Cake. Combining the richness of chocolate with the tartness of fresh raspberries, this cake offers a delightful contrast of flavors in every bite. Perfect for any celebration or as a sweet indulgence, its moist cake layers, luscious raspberry filling, and decadent chocolate ganache topping promise to captivate your taste buds and leave you craving for more.",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502459/cakes/tarta_chocoberry_oyrn3v.png",
+    "ingredient1": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710501839/cakes/ingred_raspberry_c9zfea.png",
+    "ingredient2": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240966/cakes/ingred_blueberry_xbkh8s.png",
+    "ingredient3": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240967/cakes/ingred_choco_rjfc1k.png"
+  },
+  {
+    "_id": "65f342a62fabf8c9739393c5",
+    "title": "Classic Peach Pie",
+    "description": "Savor the sweet taste of summer with our classic Peach Pie recipe. Overflowing with ripe, juicy peaches and encased in a flaky, golden crust, this iconic dessert is a celebration of the season's bounty. Imagine biting into a slice of warm pie, the aroma of ripe peaches mingling with hints of cinnamon and vanilla, and the buttery crust shattering with each forkful. Whether you're hosting a backyard barbecue or simply craving a taste of sunshine, this Peach Pie promises to evoke feelings of nostalgia and pure bliss.",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502408/cakes/tarta_peach_od3azg.png",
+    "ingredient1": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240971/cakes/ingred_peach2_szyksb.png",
+    "ingredient2": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240971/cakes/ingred_peach_oyaqes.png",
+    "ingredient3": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710440181/cakes/ingred_cream_uiysj8.png"
+  },
+  {
+    "_id": "65f342b22fabf8c9739393c7",
+    "title": "Lemon Meringue Pie",
+    "description": "Indulge in the timeless elegance of our classic Lemon Meringue Pie recipe. This exquisite dessert marries the tartness of zesty lemon filling with the lightness of fluffy meringue, all nestled in a buttery, flaky crust. With its vibrant citrus flavor and heavenly cloud-like topping, this pie is a true celebration of sweet and tangy perfection. Whether you're hosting a special occasion or simply craving a taste of nostalgia, this Lemon Meringue Pie is sure to dazzle your taste buds and captivate your guests.",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240977/cakes/tarta_lemon_uakuyh.png",
+    "ingredient1": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240969/cakes/ingred_lemon_fub8g3.png",
+    "ingredient2": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240970/cakes/ingred_lemon2_j1jiek.png",
+    "ingredient3": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710440178/cakes/ingred_meringue_fr8tpu.png"
+  },
+  {
+    "_id": "65f342be2fabf8c9739393c9",
+    "title": "Puff Pastry Strawberry Cake",
+    "description": "Elevate your dessert game with our Strawberry Cake featuring a delicate puff pastry crust and a charming lattice topping. Bursting with the sweetness of fresh strawberries, this elegant dessert is as delightful to the eyes as it is to the taste buds. Perfect for any occasion, it's sure to impress with its stunning presentation and irresistible flavor.",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502457/cakes/tarta_strawberry2_jbtx3l.png",
+    "ingredient1": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710501839/cakes/ingred_strawberries_hglytf.png",
+    "ingredient2": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710440180/cakes/ingred_puffpastry_cn7pxq.png",
+    "ingredient3": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710440183/cakes/ingred_eggs_lwpqc6.png"
+  },
+  {
+    "_id": "65f342c92fabf8c9739393cb",
+    "title": "Strawberry Cake",
+    "description": "Indulge in the delightful flavors of summer with our Strawberry Cake. Featuring moist layers infused with chopped strawberries and topped with a luscious strawberry buttercream frosting, this cake is crowned with fresh strawberry slices for an extra burst of sweetness. Perfect for any occasion, it's a surefire way to satisfy your sweet tooth and impress your guests with its vibrant presentation and irresistible taste.",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502460/cakes/tarta_strawberry_zif2fm.png",
+    "ingredient1": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710523068/cakes/ingred_strawberries2_uggfft.png",
+    "ingredient2": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710440182/cakes/ingred_strawberries3_dl9px5.png",
+    "ingredient3": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710440178/cakes/ingred_mint_bo1p0e.png"
+  }
+]

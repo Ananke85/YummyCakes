@@ -1,13 +1,20 @@
 import { Link, useParams } from "react-router-dom";
-import { getRecipes } from "../../utils/apiRecipe";
+// import { getRecipes } from "../../utils/apiRecipe";
+// import { useQuery } from "react-query";
 import styles from "./recipe.module.css";
-import { useQuery } from "react-query";
 import logo from "../../assets/YummyCakes_logo.png";
 import { useEffect, useState } from "react";
+import recipeData from "../../data/recipes.json";
 
 const Recipe = () => {
   const { name } = useParams();
-  const { data: recipes } = useQuery(["recipe"], getRecipes);
+
+  const [recipes, setRecipes] = useState([]);
+  useEffect(() => {
+    setRecipes(recipeData);
+  }, []);
+
+  // const { data: recipes } = useQuery(["recipe"], getRecipes);
   const recipe = recipes?.find((reci) => reci.title === name);
   const transformedName = name ? name.replace(/\s+/g, "-") : "";
 
@@ -37,7 +44,7 @@ const Recipe = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  
+
   useEffect(() => {
     const handleScroll = () => {
       setMobileScreen(window.innerWidth < mobDimension);
@@ -114,12 +121,14 @@ const Recipe = () => {
             restOfRecipes.map((recipe, index) => (
               <div key={index}>
                 {" "}
-                <Link to={`/recipes/${recipe.title}`} onClick={scrollToTop}>{recipe.title}</Link>
+                <Link to={`/recipes/${recipe.title}`} onClick={scrollToTop}>
+                  {recipe.title}
+                </Link>
               </div>
             ))}
         </div>
 
-      {mobileScreen &&  <button onClick={scrollToTop}>Back to Top</button> }  
+        {mobileScreen && <button onClick={scrollToTop}>Back to Top</button>}
       </div>
     </>
   );

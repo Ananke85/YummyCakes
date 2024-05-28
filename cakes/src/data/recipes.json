@@ -1,0 +1,459 @@
+[
+  {
+    "_id": "65f09e4b115d735769a4314e",
+    "title": "Strawberry Cake",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502460/cakes/tarta_strawberry_zif2fm.png",
+    "introduction": "Embark on a journey of sweetness and delight with our irresistible Strawberry Cake recipe. Bursting with the luscious flavor of ripe strawberries and adorned with fresh berries atop a tender, moist cake, this dessert is a celebration of the vibrant hues and flavors of summer. Imagine strolling through sun-kissed fields, plucking ruby-red strawberries straight from the vine, their juicy sweetness tantalizing your taste buds with each bite. Our Strawberry Cake captures the essence of these sunny days, offering a symphony of flavors and textures that will transport you to a blissful paradise. Whether shared with loved ones at a picnic or savored on a lazy afternoon, this cake promises to be a sensory delight, leaving you craving just one more slice. Join us as we explore the art of baking and learn how to create this enchanting dessert that will surely become the star of any occasion.",
+    "servings": "8-10",
+    "preparation": 30,
+    "baking": 35,
+    "ingredients": [
+      "1 and 1/2 cups all-purpose flour",
+      "1 and 1/2 teaspoons baking powder",
+      "1/4 teaspoon salt",
+      "1/2 cup unsalted butter, softened",
+      "1 cup granulated sugar",
+      "2 large eggs, at room temperature",
+      "1 teaspoon vanilla extract",
+      "1/2 cup whole milk",
+      "1 cup fresh strawberries, chopped",
+      "1/2 cup unsalted butter, softened",
+      "2 cups powdered sugar",
+      "1/2 cup fresh strawberries, pureed",
+      "1 teaspoon vanilla extract",
+      "Fresh strawberries, sliced, for topping"
+    ],
+    "instructions": [
+      {
+        "title": "Previously:",
+        "steps": [
+          "Preheat your oven to 350°F (175°C). Grease and flour two 9-inch round cake pans."
+        ],
+        "_id": "65f09e4b115d735769a4314f"
+      },
+      {
+        "title": "Prepare the cake batter:",
+        "steps": [
+          "In a medium mixing bowl, sift together flour, baking powder, and salt.",
+          "In a separate large mixing bowl, cream together softened butter and granulated sugar until light and fluffy.",
+          "Beat in eggs, one at a time, followed by vanilla extract.",
+          "Gradually add the dry ingredients to the wet ingredients, alternating with the milk, until well combined.",
+          "Fold in the chopped strawberries."
+        ],
+        "_id": "65f09e4b115d735769a43150"
+      },
+      {
+        "title": "Bake the cakes:",
+        "steps": [
+          "Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Remove from oven and let cool in pans for 10 minutes, then transfer to wire racks to cool completely."
+        ],
+        "_id": "65f09e4b115d735769a43151"
+      },
+      {
+        "title": "Make the strawberry buttercream frosting:",
+        "steps": [
+          "In a large mixing bowl, beat softened butter until smooth and creamy.",
+          "Gradually add powdered sugar, one cup at a time, beating well after each addition.",
+          "Beat in pureed strawberries and vanilla extract until frosting is light and fluffy."
+        ],
+        "_id": "65f09e4b115d735769a43152"
+      },
+      {
+        "title": "Assemble the cake:",
+        "steps": [
+          "Once the cakes are completely cooled, place one layer on a serving plate.",
+          "Spread a layer of strawberry buttercream frosting on top.",
+          "Place the second cake layer on top.",
+          "Frost the top and sides of the cake with the remaining strawberry buttercream frosting.",
+          "Decorate the top of the cake with sliced fresh strawberries."
+        ],
+        "_id": "65f09e4b115d735769a43153"
+      }
+    ],
+    "serve": "Slice and serve this delectable Strawberry Cake to your guests and enjoy the fresh, fruity flavors with every bite.",
+    "conclusion": "This Strawberry Cake is a delightful way to enjoy the bounty of summer, and its vibrant presentation is sure to impress at any gathering. Enjoy the sweetness of strawberries in every moist, tender slice!"
+  },
+  {
+    "_id": "65f09e86115d735769a43155",
+    "title": "Puff Pastry Strawberry Cake",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502457/cakes/tarta_strawberry2_jbtx3l.png",
+    "introduction": "Experience the epitome of elegance and flavor with our exquisite Strawberry Cake featuring a delicate puff pastry crust adorned with a charming lattice topping. This sophisticated dessert marries the irresistible sweetness of ripe strawberries with the flaky, buttery layers of puff pastry, creating a symphony of textures and flavors that will captivate your senses. Imagine the aroma of freshly baked pastry mingling with the fragrant scent of strawberries, as you prepare to indulge in a slice of pure indulgence. Whether served at an intimate gathering or as the grand finale to a lavish dinner party, this Strawberry Cake with puff pastry and lattice crust topping is sure to leave a lasting impression with its stunning presentation and heavenly taste. Now, let's dive into the recipe and discover how to capture the essence of summer in every slice of this delightful Peach Pie.",
+    "servings": "8-10",
+    "preparation": 30,
+    "baking": 40,
+    "ingredients": [
+      "4 cups fresh strawberries, hulled and sliced",
+      "1/2 cup granulated sugar",
+      "2 tablespoons cornstarch",
+      "1 tablespoon lemon juice",
+      "1 teaspoon vanilla extract",
+      "1 sheet of puff pastry, thawed according to package instructions",
+      "1 egg, beaten (for egg wash)",
+      "Granulated sugar, for sprinkling"
+    ],
+    "instructions": [
+      {
+        "title": "Previously:",
+        "steps": [
+          "Preheat your oven to 375°F (190°C). Line a baking sheet with parchment paper."
+        ],
+        "_id": "65f09e86115d735769a43156"
+      },
+      {
+        "title": "Prepare the strawberry filling:",
+        "steps": [
+          "In a large mixing bowl, combine sliced strawberries, granulated sugar, cornstarch, lemon juice, and vanilla extract. Toss gently to coat the strawberries evenly. Set aside."
+        ],
+        "_id": "65f09e86115d735769a43157"
+      },
+      {
+        "title": "Roll out the puff pastry:",
+        "steps": [
+          "On a lightly floured surface, roll out the puff pastry sheet into a rectangle slightly larger than your baking sheet."
+        ],
+        "_id": "65f09e86115d735769a43158"
+      },
+      {
+        "title": "Assemble the Cake:",
+        "steps": [
+          "Carefully transfer the rolled-out puff pastry to the prepared baking sheet.",
+          "Arrange the strawberry filling evenly over the puff pastry, leaving a border around the edges.",
+          "Using a sharp knife or pastry cutter, cut the remaining puff pastry into strips to create a lattice crust. Arrange the strips in a crisscross pattern over the strawberry filling.",
+          "Trim any excess pastry from the edges and press to seal.",
+          "Brush the lattice crust with beaten egg and sprinkle with granulated sugar."
+        ],
+        "_id": "65f09e86115d735769a43159"
+      },
+      {
+        "title": "Bake the Cake:",
+        "steps": [
+          "Transfer the assembled cake to the preheated oven and bake for 35-40 minutes, or until the pastry is golden brown and the strawberry filling is bubbling."
+        ],
+        "_id": "65f09e86115d735769a4315a"
+      }
+    ],
+    "serve": "Allow the cake to cool slightly before slicing and serving. Enjoy this delightful Strawberry Cake with puff pastry and lattice crust topping as a stunning centerpiece for any dessert table.",
+    "conclusion": "This Strawberry Cake with puff pastry and lattice crust topping is a masterpiece of flavor and presentation, sure to impress your guests and elevate any occasion. Enjoy the delicious combination of sweet strawberries and flaky pastry with every indulgent bite!"
+  },
+  {
+    "_id": "65f340bbd84d10a6d1edb015",
+    "title": "Lemon Meringue Pie",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240977/cakes/tarta_lemon_uakuyh.png",
+    "introduction": "Embark on a journey of culinary delight with our classic Lemon Meringue Pie recipe. Bursting with the vibrant zest of lemons and crowned with billowy clouds of sweet meringue, this iconic dessert is a testament to the timeless appeal of homemade baking. Picture yourself in a sunlit kitchen, the aroma of freshly baked crust mingling with the tangy sweetness of lemon filling, as you lovingly craft each component of this pie. From its flaky, buttery crust to its silky smooth lemon curd and ethereal meringue topping, every element of this pie is designed to evoke feelings of warmth, comfort, and nostalgia. Whether you're celebrating a special occasion or simply craving a taste of tradition, this Lemon Meringue Pie promises to be the shining star of your dessert table. Join us as we delve into the art of pie-making and discover how to create a masterpiece that will delight your senses and captivate your guests. Now, let's dive into the recipe and learn how to recreate this timeless classic in your own kitchen.",
+    "servings": "8-10",
+    "preparation": 30,
+    "baking": 20,
+    "ingredients": [
+      "1 and 1/4 cups all-purpose flour",
+      "1/2 teaspoon salt",
+      "1/2 cup unsalted butter, cold and cubed",
+      "2-4 tablespoons ice water",
+      "1 cup granulated sugar",
+      "1/4 cup cornstarch",
+      "1/4 teaspoon salt",
+      "1 and 1/4 cups water",
+      "1/2 cup fresh lemon juice",
+      "3 large egg yolks, lightly beaten",
+      "2 tablespoons unsalted butter",
+      "3 large egg whites, at room temperature",
+      "1/4 teaspoon cream of tartar",
+      "1/2 cup granulated sugar",
+      "1/2 teaspoon vanilla extract"
+    ],
+    "instructions": [
+      {
+        "title": "Prepare the crust:",
+        "steps": [
+          "In a large mixing bowl, combine flour and salt. Cut in cold butter until the mixture resembles coarse crumbs.",
+          "Gradually add ice water, one tablespoon at a time, tossing with a fork until the dough comes together.",
+          "Shape the dough into a disk, wrap it in plastic wrap, and refrigerate for at least 30 minutes.",
+          "Roll out the chilled dough on a floured surface and transfer it to a 9-inch pie dish. Trim and crimp the edges. Prick the bottom and sides with a fork. Place the crust in the freezer for 15 minutes.",
+          "Preheat the oven to 375°F (190°C). Line the chilled crust with parchment paper and fill it with pie weights or dried beans. Bake for 15 minutes. Remove the parchment paper and weights, and bake for an additional 10 minutes, or until lightly golden. Let cool completely."
+        ],
+        "_id": "65f340bbd84d10a6d1edb016"
+      },
+      {
+        "title": "Make the lemon filling:",
+        "steps": [
+          "In a medium saucepan, whisk together sugar, cornstarch, and salt. Gradually whisk in water and lemon juice until smooth.",
+          "Cook over medium heat, stirring constantly, until the mixture thickens and comes to a boil. Boil for 1 minute, then remove from heat.",
+          "Gradually whisk about 1/2 cup of the hot mixture into the beaten egg yolks. Return the egg mixture to the saucepan. Cook and stir for 2 minutes. Remove from heat.",
+          "Stir in butter until melted. Pour the hot lemon filling into the cooled pie crust."
+        ],
+        "_id": "65f340bbd84d10a6d1edb017"
+      },
+      {
+        "title": "Prepare the meringue topping:",
+        "steps": [
+          "In a large mixing bowl, beat egg whites and cream of tartar on medium speed until soft peaks form.",
+          "Gradually add sugar, 1 tablespoon at a time, beating on high speed until stiff, glossy peaks form. Beat in vanilla extract.",
+          "Spread the meringue evenly over the hot lemon filling, sealing the edges to the crust."
+        ],
+        "_id": "65f340bbd84d10a6d1edb018"
+      },
+      {
+        "title": "Bake the pie:",
+        "steps": [
+          "Bake at 375°F (190°C) for 15-20 minutes, or until the meringue is golden brown.",
+          "Cool on a wire rack for 1 hour. Then refrigerate for at least 4 hours before serving to allow the filling to set completely."
+        ],
+        "_id": "65f340bbd84d10a6d1edb019"
+      }
+    ],
+    "serve": "Slice and serve this classic Lemon Meringue Pie chilled, and savor every heavenly bite of its tangy lemon filling and fluffy meringue topping.",
+    "conclusion": "This timeless dessert is perfect for any occasion and is sure to leave a lasting impression with its irresistible combination of flavors and textures. Enjoy the taste of nostalgia with every forkful of this delightful Lemon Meringue Pie!"
+  },
+  {
+    "_id": "65f340ccd84d10a6d1edb01b",
+    "title": "Classic Peach Pie",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502408/cakes/tarta_peach_od3azg.png",
+    "introduction": "Transport yourself to the heart of summer with our classic Peach Pie recipe. Bursting with the sun-ripened sweetness of fresh peaches and enveloped in a flaky, golden crust, this timeless dessert is a true celebration of nature's bounty. Picture a lazy afternoon spent in a sun-dappled orchard, the air filled with the heady aroma of ripe peaches, and the sound of birdsong echoing through the trees. Our Peach Pie captures the essence of these idyllic moments, offering a taste of pure bliss with every bite. Whether enjoyed warm from the oven or chilled on a hot summer's day, this pie promises to evoke feelings of comfort, joy, and nostalgia. Join us as we embark on a culinary journey and learn how to create this beloved dessert that will surely become a cherished family tradition. Now, let's dive into the recipe and discover how to capture the essence of summer in every slice of this delightful Peach Pie.",
+    "servings": "8-10",
+    "preparation": 30,
+    "baking": 50,
+    "ingredients": [
+      "2 and 1/2 cups all-purpose flour",
+      "1 teaspoon salt",
+      "1 cup unsalted butter, cold and cubed",
+      "6-8 tablespoons ice water",
+      "6-7 large ripe peaches, peeled, pitted, and sliced",
+      "1/2 cup granulated sugar",
+      "1/4 cup packed light brown sugar",
+      "1/4 cup cornstarch",
+      "1 teaspoon ground cinnamon",
+      "1/4 teaspoon ground nutmeg",
+      "1 teaspoon vanilla extract",
+      "1 tablespoon lemon juice",
+      "2 tablespoons unsalted butter, cut into small pieces",
+      "1 egg, beaten (for egg wash)",
+      "Granulated sugar (for sprinkling)"
+    ],
+    "instructions": [
+      {
+        "title": "Prepare the crust:",
+        "steps": [
+          "In a large mixing bowl, combine flour and salt. Cut in cold butter using a pastry cutter or fork until the mixture resembles coarse crumbs.",
+          "Gradually add ice water, one tablespoon at a time, tossing with a fork until the dough comes together.",
+          "Divide the dough into two equal parts, shape each into a disk, wrap in plastic wrap, and refrigerate for at least 30 minutes."
+        ],
+        "_id": "65f340ccd84d10a6d1edb01c"
+      },
+      {
+        "title": "Make the peach filling:",
+        "steps": [
+          "In a large mixing bowl, combine sliced peaches, granulated sugar, brown sugar, cornstarch, cinnamon, nutmeg, vanilla extract, and lemon juice. Toss gently to coat the peaches evenly."
+        ],
+        "_id": "65f340ccd84d10a6d1edb01d"
+      },
+      {
+        "title": "Preheat the oven:",
+        "steps": ["To 375°F (190°C)."],
+        "_id": "65f340ccd84d10a6d1edb01e"
+      },
+      {
+        "title": "Roll out the crust:",
+        "steps": [
+          "On a lightly floured surface, roll out one disk of dough into a circle large enough to line a 9-inch pie dish. Transfer the crust to the pie dish and gently press it into the bottom and sides."
+        ],
+        "_id": "65f340ccd84d10a6d1edb01f"
+      },
+      {
+        "title": "Fill the pie:",
+        "steps": [
+          "Pour the peach filling into the prepared pie crust. Dot the top of the filling with pieces of butter."
+        ],
+        "_id": "65f340ccd84d10a6d1edb020"
+      },
+      {
+        "title": "Top the pie:",
+        "steps": [
+          "Roll out the second disk of dough into a circle large enough to cover the pie. Place it over the filling.",
+          "Trim any excess dough, leaving about a 1-inch overhang. Fold the edges of the top crust under the bottom crust, then crimp the edges to seal. Cut slits in the top crust to allow steam to escape."
+        ],
+        "_id": "65f340ccd84d10a6d1edb021"
+      },
+      {
+        "title": "Bake the pie:",
+        "steps": [
+          "Brush the top crust with beaten egg and sprinkle with granulated sugar.",
+          "Place the pie on a baking sheet to catch any drips, and bake in the preheated oven for 45-50 minutes, or until the crust is golden brown and the filling is bubbly."
+        ],
+        "_id": "65f340ccd84d10a6d1edb022"
+      }
+    ],
+    "serve": "Allow the pie to cool on a wire rack for at least 2 hours before serving to allow the filling to set. Serve slices of this delightful Peach Pie on their own or topped with a scoop of vanilla ice cream for an extra indulgent treat.",
+    "conclusion": "Enjoy the taste of summer with every delicious bite of this classic Peach Pie!"
+  },
+  {
+    "_id": "65f34100d84d10a6d1edb024",
+    "title": "Chocolate and Raspberry Cake",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710502459/cakes/tarta_chocoberry_oyrn3v.png",
+    "introduction": "Indulge your senses with the perfect blend of rich chocolate and tangy raspberries in this exquisite Chocolate and Raspberry Cake recipe. This decadent dessert combines moist chocolate cake layers with a luscious raspberry filling and a smooth chocolate ganache topping, creating a symphony of flavors that will delight your taste buds. Perfect for special occasions or as a sweet treat any day of the week, this cake is sure to impress friends and family alike. With its simple yet elegant presentation and irresistible taste, it's bound to become a favorite in your baking repertoire. Whether you're celebrating a birthday, hosting a dinner party, or simply craving a slice of something sweet, this Chocolate and Raspberry Cake is guaranteed to satisfy your dessert cravings. So roll up your sleeves, gather your ingredients, and get ready to bake up a storm of chocolatey raspberry goodness! Let's dive into the recipe and discover how to create this delectable masterpiece in your own kitchen.",
+    "servings": "10-12",
+    "preparation": 30,
+    "baking": 35,
+    "ingredients": [
+      "1 and 3/4 cups all-purpose flour",
+      "1 and 1/2 cups granulated sugar",
+      "3/4 cup unsweetened cocoa powder",
+      "1 and 1/2 teaspoons baking powder",
+      "1 and 1/2 teaspoons baking soda",
+      "1 teaspoon salt",
+      "2 large eggs, at room temperature",
+      "1 cup whole milk",
+      "1/2 cup vegetable oil",
+      "2 teaspoons vanilla extract",
+      "1 cup boiling water",
+      "2 cups fresh raspberries",
+      "1/4 cup granulated sugar",
+      "1 tablespoon lemon juice",
+      "1 cup semi-sweet chocolate chips",
+      "1/2 cup heavy cream"
+    ],
+    "instructions": [
+      {
+        "title": "Previously:",
+        "steps": [
+          "Preheat your oven to 350°F (175°C). Grease and flour two 9-inch round cake pans."
+        ],
+        "_id": "65f34100d84d10a6d1edb025"
+      },
+      {
+        "title": "Make the raspberry filling:",
+        "steps": [
+          "In a saucepan, combine raspberries, sugar, and lemon juice.",
+          "Cook over medium heat, stirring occasionally until raspberries break down and mixture thickens slightly, about 5-7 minutes.",
+          "Remove from heat and strain through a fine mesh sieve to remove seeds. Set aside to cool."
+        ],
+        "_id": "65f34100d84d10a6d1edb026"
+      },
+      {
+        "title": "Prepare the cake batter:",
+        "steps": [
+          "In a large mixing bowl, sift together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+          "Add eggs, milk, oil, and vanilla extract. Beat on medium speed for 2 minutes.",
+          "Stir in boiling water. The batter will be thin, but that's okay."
+        ],
+        "_id": "65f34100d84d10a6d1edb027"
+      },
+      {
+        "title": "Bake the cakes:",
+        "steps": [
+          "Divide the batter evenly between the prepared cake pans.",
+          "Bake in the preheated oven for 35-40 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Remove from oven and let cool in pans for 10 minutes, then transfer to wire racks to cool completely."
+        ],
+        "_id": "65f34100d84d10a6d1edb028"
+      },
+      {
+        "title": "Make the chocolate ganache:",
+        "steps": [
+          "In a small saucepan, heat the heavy cream over medium heat until it just begins to simmer.",
+          "Place the chocolate chips in a heatproof bowl.",
+          "Pour the hot cream over the chocolate chips and let sit for 2-3 minutes.",
+          "Stir until smooth and glossy. Let cool slightly."
+        ],
+        "_id": "65f34100d84d10a6d1edb029"
+      },
+      {
+        "title": "Assemble the cake:",
+        "steps": [
+          "Once the cakes are completely cooled, place one layer on a serving plate.",
+          "Spread a layer of raspberry filling on top.",
+          "Place the second cake layer on top.",
+          "Pour the chocolate ganache over the top of the cake, allowing it to drip down the sides.",
+          "Garnish with fresh raspberries if desired."
+        ],
+        "_id": "65f34100d84d10a6d1edb02a"
+      }
+    ],
+    "serve": "Slice and serve this decadent Chocolate and Raspberry Cake to your guests and enjoy!",
+    "conclusion": "This cake is best enjoyed the day it's made, but leftovers can be stored in an airtight container at room temperature for up to 2 days, or in the refrigerator for up to 5 days. Just be sure to bring it to room temperature before serving again for the best taste and texture. Enjoy!"
+  },
+  {
+    "_id": "65f34112d84d10a6d1edb02c",
+    "title": "Chocolate and Fig Cake",
+    "image": "https://res.cloudinary.com/dg63r2ufi/image/upload/v1710240976/cakes/tarta_chocofigue_ga0io1.png",
+    "introduction": "Dive into a world of sophisticated flavors with our Chocolate and Fig Cake recipe. This indulgent dessert brings together the richness of chocolate with the delicate sweetness and earthy notes of fresh figs, resulting in a culinary masterpiece that's as beautiful as it is delicious. Each decadent bite of this cake offers a symphony of flavors and textures that will tantalize your taste buds and leave you craving more. Whether you're hosting an elegant dinner party or simply treating yourself to a luxurious dessert, this Chocolate and Fig Cake is sure to impress with its irresistible charm and irresistible taste. Let's embark on a culinary adventure and learn how to create this divine confection that's sure to steal the spotlight at any gathering. Let's dive into the recipe and discover how to create this delectable masterpiece in your own kitchen.",
+    "servings": "10-12",
+    "preparation": 30,
+    "baking": 45,
+    "ingredients": [
+      "1 and 3/4 cups all-purpose flour",
+      "1 and 1/2 cups granulated sugar",
+      "3/4 cup unsweetened cocoa powder",
+      "1 and 1/2 teaspoons baking powder",
+      "1 and 1/2 teaspoons baking soda",
+      "1 teaspoon salt",
+      "2 large eggs, at room temperature",
+      "1 cup whole milk",
+      "1/2 cup vegetable oil",
+      "2 teaspoons vanilla extract",
+      "1 cup boiling water",
+      "2 cups fresh figs, chopped",
+      "1/4 cup honey",
+      "1 tablespoon lemon juice",
+      "1 cup semi-sweet chocolate chips",
+      "1/2 cup heavy cream"
+    ],
+    "instructions": [
+      {
+        "title": "Previously:",
+        "steps": [
+          "Preheat your oven to 350°F (175°C). Grease and flour two 9-inch round cake pans."
+        ],
+        "_id": "65f34112d84d10a6d1edb02d"
+      },
+      {
+        "title": "Make the fig filling:",
+        "steps": [
+          "In a saucepan, combine chopped figs, honey, and lemon juice.",
+          "Cook over medium heat, stirring occasionally until figs break down and mixture thickens slightly, about 5-7 minutes.",
+          "Remove from heat and let cool."
+        ],
+        "_id": "65f34112d84d10a6d1edb02e"
+      },
+      {
+        "title": "Prepare the cake batter:",
+        "steps": [
+          "In a large mixing bowl, sift together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+          "Add eggs, milk, oil, and vanilla extract. Beat on medium speed for 2 minutes.",
+          "Stir in boiling water. The batter will be thin, but that's okay."
+        ],
+        "_id": "65f34112d84d10a6d1edb02f"
+      },
+      {
+        "title": "Bake the cakes:",
+        "steps": [
+          "Divide the batter evenly between the prepared cake pans.",
+          "Bake in the preheated oven for 35-40 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Remove from oven and let cool in pans for 10 minutes, then transfer to wire racks to cool completely."
+        ],
+        "_id": "65f34112d84d10a6d1edb030"
+      },
+      {
+        "title": "Make the chocolate ganache:",
+        "steps": [
+          "In a small saucepan, heat the heavy cream over medium heat until it just begins to simmer.",
+          "Place the chocolate chips in a heatproof bowl.",
+          "Pour the hot cream over the chocolate chips and let sit for 2-3 minutes.",
+          "Stir until smooth and glossy. Let cool slightly."
+        ],
+        "_id": "65f34112d84d10a6d1edb031"
+      },
+      {
+        "title": "Assemble the cake:",
+        "steps": [
+          "Once the cakes are completely cooled, place one layer on a serving plate.",
+          "Spread a layer of fig filling on top.",
+          "Place the second cake layer on top.",
+          "Pour the chocolate ganache over the top of the cake, allowing it to drip down the sides."
+        ],
+        "_id": "65f34112d84d10a6d1edb032"
+      }
+    ],
+    "serve": "Slice and serve this luxurious Chocolate and Fig Cake to your guests and enjoy!",
+    "conclusion": "This cake is best enjoyed the day it's made, but leftovers can be stored in an airtight container at room temperature for up to 2 days, or in the refrigerator for up to 5 days. Just be sure to bring it to room temperature before serving again for the best taste and texture. Enjoy the divine combination of chocolate and figs in every bite!"
+  }
+]

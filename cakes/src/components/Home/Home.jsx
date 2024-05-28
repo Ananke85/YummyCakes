@@ -1,11 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./home.module.css";
-import { useQuery } from "react-query";
-import { getCakes } from "../../utils/apiCakes";
+// import { useQuery } from "react-query";
+// import { getCakes } from "../../utils/apiCakes";
 import Cake from "../CAKES/Cake";
+import dataCakes from "../../data/cakes.json";
 
 const Home = () => {
-  const { data: cakes } = useQuery(["cakes"], getCakes);
+  // const { data: cakes } = useQuery(["cakes"], getCakes);
+
+  //this const and useEffect, only when data comes from the json
+  const [cakes, setCakes] = useState([]);
+
+  useEffect(() => {
+    setCakes(dataCakes);
+  }, []);
+
   const cakesLinks = cakes?.map((cake) => cake.title);
 
   const [currentCakeIndex, setCurrentCakeIndex] = useState(0);
@@ -30,8 +39,6 @@ const Home = () => {
       setRotation(rotation + 360);
     }
   };
-
-
 
   return (
     <>
